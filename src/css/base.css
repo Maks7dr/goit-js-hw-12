@@ -8,6 +8,7 @@ body {
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
+  scroll-behavior: smooth;
 }
 
 main {
@@ -151,4 +152,8 @@ b {
   100% {
     transform: rotateY(3600deg);
   }
+}
+#loadBtn {
+  display: none;
+  margin: 20px auto;
 }
