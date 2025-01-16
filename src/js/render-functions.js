@@ -51,13 +51,13 @@ export function renderGallery(images, append = false) {
 export function clearGallery() {
   document.querySelector('.gallery').innerHTML = '';
 }
-export function toggleLoader(show) {
-  const loader = document.querySelector('.loader');
-  loader.style.display = show ? 'inline-block' : 'none';
-}
 export function toggleButton(show) {
   const loadMoreButton = document.querySelector('#loadBtn');
   loadMoreButton.style.display = show ? 'block' : 'none';
+}
+export function toggleLoader(show) {
+  const loader = document.querySelector('.loader');
+  loader.style.display = show ? 'inline-block' : 'none';
 }
 export function scrollToNewImages() {
   const firstCard = document.querySelector('.gallery .gallery-item');

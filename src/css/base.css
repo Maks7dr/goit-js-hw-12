@@ -71,8 +71,8 @@ button:hover {
   position: relative;
   display: block;
   border: 1px solid #808080;
-  max-width: 360px;
-  max-height: 200px;
+  width: 360px;
+  height: 200px;
   overflow: hidden;
   /* width: calc((100% - 2 * 24px) / 3); */
 }
